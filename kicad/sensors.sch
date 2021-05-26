@@ -1,0 +1,431 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L roboty_mobilne-rescue:KTIR0711S-warsztaty U?
+U 1 1 60BA3FB4
+P 2150 5900
+AR Path="/60BA3FB4" Ref="U?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FB4" Ref="U?"  Part="1" 
+F 0 "U?" H 2150 6225 50  0000 C CNN
+F 1 "KTIR0711S" H 2150 6134 50  0000 C CNN
+F 2 "" H 1950 5700 50  0000 L CIN
+F 3 "" H 2150 5900 50  0000 L CNN
+	1    2150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BA3FBA
+P 2150 6150
+AR Path="/60BA3FBA" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FBA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 5900 50  0001 C CNN
+F 1 "GND" H 2155 5977 50  0000 C CNN
+F 2 "" H 2150 6150 50  0001 C CNN
+F 3 "" H 2150 6150 50  0001 C CNN
+	1    2150 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6000 1850 6150
+Wire Wire Line
+	1850 6150 2150 6150
+Wire Wire Line
+	2450 6000 2450 6150
+Wire Wire Line
+	2450 6150 2150 6150
+Connection ~ 2150 6150
+$Comp
+L Device:R_Small R?
+U 1 1 60BA3FC5
+P 1750 5650
+AR Path="/60BA3FC5" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FC5" Ref="R?"  Part="1" 
+F 0 "R?" H 1809 5696 50  0000 L CNN
+F 1 "220" H 1809 5605 50  0000 L CNN
+F 2 "" V 1680 5650 50  0001 C CNN
+F 3 "~" H 1750 5650 50  0001 C CNN
+	1    1750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60BA3FCB
+P 2550 5650
+AR Path="/60BA3FCB" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FCB" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 5696 50  0000 L CNN
+F 1 "10k" H 2609 5605 50  0000 L CNN
+F 2 "" V 2480 5650 50  0001 C CNN
+F 3 "~" H 2550 5650 50  0001 C CNN
+	1    2550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5800 1750 5800
+Text GLabel 2700 5800 2    50   Output ~ 0
+KTIR_4
+Wire Wire Line
+	1850 4800 1850 4950
+Wire Wire Line
+	1850 4950 2150 4950
+Wire Wire Line
+	2450 4800 2450 4950
+$Comp
+L Device:R_Small R?
+U 1 1 60BA3FD6
+P 1750 4450
+AR Path="/60BA3FD6" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FD6" Ref="R?"  Part="1" 
+F 0 "R?" H 1809 4496 50  0000 L CNN
+F 1 "220" H 1809 4405 50  0000 L CNN
+F 2 "" V 1680 4450 50  0001 C CNN
+F 3 "~" H 1750 4450 50  0001 C CNN
+	1    1750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60BA3FDC
+P 2550 4450
+AR Path="/60BA3FDC" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FDC" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 4496 50  0000 L CNN
+F 1 "10k" H 2609 4405 50  0000 L CNN
+F 2 "" V 2480 4450 50  0001 C CNN
+F 3 "~" H 2550 4450 50  0001 C CNN
+	1    2550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4600 1750 4600
+Text GLabel 2700 4600 2    50   Output ~ 0
+KTIR_3
+$Comp
+L roboty_mobilne-rescue:KTIR0711S-warsztaty U?
+U 1 1 60BA3FE4
+P 2150 3500
+AR Path="/60BA3FE4" Ref="U?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FE4" Ref="U?"  Part="1" 
+F 0 "U?" H 2150 3825 50  0000 C CNN
+F 1 "KTIR0711S" H 2150 3734 50  0000 C CNN
+F 2 "" H 1950 3300 50  0000 L CIN
+F 3 "" H 2150 3500 50  0000 L CNN
+	1    2150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BA3FEA
+P 2150 3750
+AR Path="/60BA3FEA" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 3500 50  0001 C CNN
+F 1 "GND" H 2155 3577 50  0000 C CNN
+F 2 "" H 2150 3750 50  0001 C CNN
+F 3 "" H 2150 3750 50  0001 C CNN
+	1    2150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3600 1850 3750
+Wire Wire Line
+	1850 3750 2150 3750
+Wire Wire Line
+	2450 3600 2450 3750
+Wire Wire Line
+	2450 3750 2150 3750
+Connection ~ 2150 3750
+$Comp
+L Device:R_Small R?
+U 1 1 60BA3FF5
+P 1750 3250
+AR Path="/60BA3FF5" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FF5" Ref="R?"  Part="1" 
+F 0 "R?" H 1809 3296 50  0000 L CNN
+F 1 "220" H 1809 3205 50  0000 L CNN
+F 2 "" V 1680 3250 50  0001 C CNN
+F 3 "~" H 1750 3250 50  0001 C CNN
+	1    1750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60BA3FFB
+P 2550 3250
+AR Path="/60BA3FFB" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA3FFB" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 3296 50  0000 L CNN
+F 1 "10k" H 2609 3205 50  0000 L CNN
+F 2 "" V 2480 3250 50  0001 C CNN
+F 3 "~" H 2550 3250 50  0001 C CNN
+	1    2550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3400 1750 3400
+Text GLabel 2700 3400 2    50   Output ~ 0
+KTIR_2
+$Comp
+L roboty_mobilne-rescue:KTIR0711S-warsztaty U?
+U 1 1 60BA4003
+P 2150 2350
+AR Path="/60BA4003" Ref="U?"  Part="1" 
+AR Path="/60B6A5B0/60BA4003" Ref="U?"  Part="1" 
+F 0 "U?" H 2150 2675 50  0000 C CNN
+F 1 "KTIR0711S" H 2150 2584 50  0000 C CNN
+F 2 "" H 1950 2150 50  0000 L CIN
+F 3 "" H 2150 2350 50  0000 L CNN
+	1    2150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BA4009
+P 2150 2600
+AR Path="/60BA4009" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA4009" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 2350 50  0001 C CNN
+F 1 "GND" H 2155 2427 50  0000 C CNN
+F 2 "" H 2150 2600 50  0001 C CNN
+F 3 "" H 2150 2600 50  0001 C CNN
+	1    2150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2450 1850 2600
+Wire Wire Line
+	1850 2600 2150 2600
+Wire Wire Line
+	2450 2450 2450 2600
+Wire Wire Line
+	2450 2600 2150 2600
+Connection ~ 2150 2600
+$Comp
+L Device:R_Small R?
+U 1 1 60BA4014
+P 1750 2100
+AR Path="/60BA4014" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA4014" Ref="R?"  Part="1" 
+F 0 "R?" H 1809 2146 50  0000 L CNN
+F 1 "220" H 1809 2055 50  0000 L CNN
+F 2 "" V 1680 2100 50  0001 C CNN
+F 3 "~" H 1750 2100 50  0001 C CNN
+	1    1750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60BA401A
+P 2550 2100
+AR Path="/60BA401A" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA401A" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 2146 50  0000 L CNN
+F 1 "10k" H 2609 2055 50  0000 L CNN
+F 2 "" V 2480 2100 50  0001 C CNN
+F 3 "~" H 2550 2100 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2250 1750 2250
+Text GLabel 2700 2250 2    50   Output ~ 0
+KTIR_1
+Text Notes 1650 1600 0    79   ~ 0
+White line sensors
+Wire Wire Line
+	1750 1950 2150 1950
+$Comp
+L power:+5V #PWR?
+U 1 1 60BA4024
+P 2150 1950
+AR Path="/60BA4024" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA4024" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 1800 50  0001 C CNN
+F 1 "+5V" H 2165 2123 50  0000 C CNN
+F 2 "" H 2150 1950 50  0001 C CNN
+F 3 "" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 1950
+Wire Wire Line
+	2150 1950 2550 1950
+Wire Wire Line
+	1750 3100 2550 3100
+Connection ~ 2150 4950
+Wire Wire Line
+	2450 4950 2150 4950
+$Comp
+L power:GND #PWR?
+U 1 1 60BA402F
+P 2150 4950
+AR Path="/60BA402F" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA402F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 4700 50  0001 C CNN
+F 1 "GND" H 2155 4777 50  0000 C CNN
+F 2 "" H 2150 4950 50  0001 C CNN
+F 3 "" H 2150 4950 50  0001 C CNN
+	1    2150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L roboty_mobilne-rescue:KTIR0711S-warsztaty U?
+U 1 1 60BA4035
+P 2150 4700
+AR Path="/60BA4035" Ref="U?"  Part="1" 
+AR Path="/60B6A5B0/60BA4035" Ref="U?"  Part="1" 
+F 0 "U?" H 2150 5025 50  0000 C CNN
+F 1 "KTIR0711S" H 2150 4934 50  0000 C CNN
+F 2 "" H 1950 4500 50  0000 L CIN
+F 3 "" H 2150 4700 50  0000 L CNN
+	1    2150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5500 2150 5500
+$Comp
+L power:+5V #PWR?
+U 1 1 60BA403C
+P 2150 5500
+AR Path="/60BA403C" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA403C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 5350 50  0001 C CNN
+F 1 "+5V" H 2165 5673 50  0000 C CNN
+F 2 "" H 2150 5500 50  0001 C CNN
+F 3 "" H 2150 5500 50  0001 C CNN
+	1    2150 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 5500
+Wire Wire Line
+	2150 5500 2550 5500
+Wire Wire Line
+	1750 4300 2150 4300
+$Comp
+L power:+5V #PWR?
+U 1 1 60BA4045
+P 2150 4300
+AR Path="/60BA4045" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BA4045" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 4150 50  0001 C CNN
+F 1 "+5V" H 2165 4473 50  0000 C CNN
+F 2 "" H 2150 4300 50  0001 C CNN
+F 3 "" H 2150 4300 50  0001 C CNN
+	1    2150 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 4300
+Wire Wire Line
+	2150 4300 2550 4300
+Wire Wire Line
+	1750 1950 1750 2000
+Wire Wire Line
+	2450 2250 2550 2250
+Wire Wire Line
+	1750 2200 1750 2250
+Wire Wire Line
+	2550 2200 2550 2250
+Connection ~ 2550 2250
+Wire Wire Line
+	2550 2250 2700 2250
+Wire Wire Line
+	2550 2000 2550 1950
+Wire Wire Line
+	1750 3100 1750 3150
+Wire Wire Line
+	2450 3400 2550 3400
+Wire Wire Line
+	1750 3350 1750 3400
+Wire Wire Line
+	2550 3350 2550 3400
+Connection ~ 2550 3400
+Wire Wire Line
+	2550 3400 2700 3400
+Wire Wire Line
+	2550 3150 2550 3100
+Wire Wire Line
+	1750 5800 1750 5750
+Wire Wire Line
+	2450 5800 2550 5800
+Wire Wire Line
+	2450 4600 2550 4600
+Wire Wire Line
+	1750 5550 1750 5500
+Wire Wire Line
+	2550 5500 2550 5550
+Wire Wire Line
+	2550 5750 2550 5800
+Connection ~ 2550 5800
+Wire Wire Line
+	2550 5800 2700 5800
+Wire Wire Line
+	2550 4550 2550 4600
+Connection ~ 2550 4600
+Wire Wire Line
+	2550 4600 2700 4600
+Wire Wire Line
+	2550 4350 2550 4300
+Wire Wire Line
+	1750 4600 1750 4550
+Wire Wire Line
+	1750 4350 1750 4300
+Text Notes 4550 1600 0    79   ~ 0
+Proximity sensor
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60BAA028
+P 5000 1750
+AR Path="/60BAA028" Ref="J?"  Part="1" 
+AR Path="/60B6A5B0/60BAA028" Ref="J?"  Part="1" 
+F 0 "J?" V 4964 1462 50  0000 R CNN
+F 1 "Conn_01x04" V 4873 1462 50  0000 R CNN
+F 2 "" H 5000 1750 50  0001 C CNN
+F 3 "~" H 5000 1750 50  0001 C CNN
+	1    5000 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BAA02E
+P 5200 1950
+AR Path="/60BAA02E" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BAA02E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 1700 50  0001 C CNN
+F 1 "GND" H 5205 1777 50  0000 C CNN
+F 2 "" H 5200 1950 50  0001 C CNN
+F 3 "" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60BAA034
+P 5100 1950
+AR Path="/60BAA034" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BAA034" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 1800 50  0001 C CNN
+F 1 "+3.3V" H 5115 2123 50  0000 C CNN
+F 2 "" H 5100 1950 50  0001 C CNN
+F 3 "" H 5100 1950 50  0001 C CNN
+	1    5100 1950
+	-1   0    0    1   
+$EndComp
+Text GLabel 5000 1950 3    50   Output ~ 0
+SENSOR_OUT
+Text GLabel 4900 1950 3    50   Input ~ 0
+SENSOR_ENABLE
+$EndSCHEMATC
