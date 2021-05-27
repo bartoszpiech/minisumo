@@ -369,7 +369,7 @@ L Device:CP_Small C4
 U 1 1 60AF4E38
 P 4350 2850
 F 0 "C4" H 4438 2896 50  0000 L CNN
-F 1 "10u" H 4438 2805 50  0000 L CNN
+F 1 "22u" H 4438 2805 50  0000 L CNN
 F 2 "" H 4350 2850 50  0001 C CNN
 F 3 "~" H 4350 2850 50  0001 C CNN
 	1    4350 2850
@@ -392,15 +392,13 @@ L Device:CP_Small C8
 U 1 1 60AF7F2B
 P 8800 2850
 F 0 "C8" H 8888 2896 50  0000 L CNN
-F 1 "10u" H 8888 2805 50  0000 L CNN
+F 1 "22u" H 8888 2805 50  0000 L CNN
 F 2 "" H 8800 2850 50  0001 C CNN
 F 3 "~" H 8800 2850 50  0001 C CNN
 	1    8800 2850
 	1    0    0    -1  
 $EndComp
 Connection ~ 8800 2950
-Text Notes 9050 2900 0    50   ~ 0
-tutaj nie wiem czy elektrolit 10uF\nwystarczy na 12v, moze lepiej wiecej
 $Comp
 L Device:D D10
 U 1 1 60B33AF8
@@ -577,8 +575,6 @@ F 3 "" H 9700 3700 50  0001 C CNN
 	1    9700 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 4600 2900 0    50   ~ 0
-tutaj nie wiem czy elektrolit 10uF\nwystarczy na 12v, moze lepiej wiecej
 $Comp
 L power:GND #PWR0121
 U 1 1 60B478C5

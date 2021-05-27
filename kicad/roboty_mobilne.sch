@@ -684,4 +684,6 @@ F 3 "" H 4850 7200 50  0001 C CNN
 	1    4850 7200
 	1    0    0    -1  
 $EndComp
+Text Notes 9850 4950 0    79   ~ 0
+Debug
 $EndSCHEMATC
