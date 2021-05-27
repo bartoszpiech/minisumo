@@ -684,4 +684,19 @@ F 3 "" H 4850 7200 50  0001 C CNN
 	1    4850 7200
 	1    0    0    -1  
 $EndComp
+Text Notes 9850 4950 0    79   ~ 0
+Debug
+NoConn ~ 6450 4550
+NoConn ~ 6450 4450
+NoConn ~ 6450 4350
+NoConn ~ 6450 4250
+NoConn ~ 6450 4150
+NoConn ~ 6450 4050
+NoConn ~ 4850 4350
+NoConn ~ 4850 2950
+NoConn ~ 4850 2850
+NoConn ~ 6450 3050
+NoConn ~ 6450 3150
+NoConn ~ 6450 3250
+NoConn ~ 6450 3350
 $EndSCHEMATC
