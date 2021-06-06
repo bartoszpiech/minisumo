@@ -367,15 +367,14 @@ $EndComp
 $Comp
 L Device:CP_Small C4
 U 1 1 60AF4E38
-P 4350 2850
-F 0 "C4" H 4438 2896 50  0000 L CNN
-F 1 "22u" H 4438 2805 50  0000 L CNN
-F 2 "" H 4350 2850 50  0001 C CNN
-F 3 "~" H 4350 2850 50  0001 C CNN
-	1    4350 2850
+P 4750 2850
+F 0 "C4" H 4838 2896 50  0000 L CNN
+F 1 "22u" H 4838 2805 50  0000 L CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
 	1    0    0    -1  
 $EndComp
-Connection ~ 4350 2950
 $Comp
 L Device:CP_Small C5
 U 1 1 60AF6A3D
@@ -390,15 +389,14 @@ $EndComp
 $Comp
 L Device:CP_Small C8
 U 1 1 60AF7F2B
-P 8800 2850
-F 0 "C8" H 8888 2896 50  0000 L CNN
-F 1 "22u" H 8888 2805 50  0000 L CNN
-F 2 "" H 8800 2850 50  0001 C CNN
-F 3 "~" H 8800 2850 50  0001 C CNN
-	1    8800 2850
+P 9250 2850
+F 0 "C8" H 9338 2896 50  0000 L CNN
+F 1 "22u" H 9338 2805 50  0000 L CNN
+F 2 "" H 9250 2850 50  0001 C CNN
+F 3 "~" H 9250 2850 50  0001 C CNN
+	1    9250 2850
 	1    0    0    -1  
 $EndComp
-Connection ~ 8800 2950
 $Comp
 L Device:D D10
 U 1 1 60B33AF8
@@ -500,9 +498,9 @@ $EndComp
 Wire Wire Line
 	5300 4000 5300 4100
 Text GLabel 5000 4050 0    50   Input ~ 0
-ML_OUT1
+MR_OUT1
 Text GLabel 5300 4050 2    50   Input ~ 0
-ML_OUT2
+MR_OUT2
 Text Notes 9300 3400 0    50   ~ 0
 EMF Protection
 Text Notes 4900 3400 0    50   ~ 0
@@ -518,7 +516,6 @@ F 3 "" H 4350 2750 50  0001 C CNN
 	1    4350 2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 4350 2750
 $Comp
 L power:+12V #PWR0116
 U 1 1 60B9AB61
@@ -552,7 +549,6 @@ F 3 "" H 8800 2750 50  0001 C CNN
 	1    8800 2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 8800 2750
 $Comp
 L power:+12V #PWR0119
 U 1 1 60B9EC15
@@ -619,4 +615,30 @@ F 3 "~" H 5000 4250 50  0001 C CNN
 	1    5000 4250
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 60C28A06
+P 4350 2850
+F 0 "C?" H 4438 2896 50  0000 L CNN
+F 1 "500u" H 4438 2805 50  0000 L CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "~" H 4350 2850 50  0001 C CNN
+	1    4350 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2750
+Connection ~ 4350 2950
+$Comp
+L Device:CP_Small C?
+U 1 1 60C2A88E
+P 8800 2850
+F 0 "C?" H 8888 2896 50  0000 L CNN
+F 1 "500u" H 8888 2805 50  0000 L CNN
+F 2 "" H 8800 2850 50  0001 C CNN
+F 3 "~" H 8800 2850 50  0001 C CNN
+	1    8800 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8800 2750
+Connection ~ 8800 2950
 $EndSCHEMATC

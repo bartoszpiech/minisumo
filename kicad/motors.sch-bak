@@ -500,9 +500,9 @@ $EndComp
 Wire Wire Line
 	5300 4000 5300 4100
 Text GLabel 5000 4050 0    50   Input ~ 0
-ML_OUT1
+MR_OUT1
 Text GLabel 5300 4050 2    50   Input ~ 0
-ML_OUT2
+MR_OUT2
 Text Notes 9300 3400 0    50   ~ 0
 EMF Protection
 Text Notes 4900 3400 0    50   ~ 0

@@ -180,19 +180,6 @@ Wire Wire Line
 Text GLabel 2700 3400 2    50   Output ~ 0
 KTIR_2
 $Comp
-L roboty_mobilne-rescue:KTIR0711S-warsztaty U?
-U 1 1 60BA4003
-P 2150 2350
-AR Path="/60BA4003" Ref="U?"  Part="1" 
-AR Path="/60B6A5B0/60BA4003" Ref="U5"  Part="1" 
-F 0 "U5" H 2150 2675 50  0000 C CNN
-F 1 "KTIR0711S" H 2150 2584 50  0000 C CNN
-F 2 "" H 1950 2150 50  0000 L CIN
-F 3 "" H 2150 2350 50  0000 L CNN
-	1    2150 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 60BA4009
 P 2150 2600
@@ -209,11 +196,6 @@ Wire Wire Line
 	1850 2450 1850 2600
 Wire Wire Line
 	1850 2600 2150 2600
-Wire Wire Line
-	2450 2450 2450 2600
-Wire Wire Line
-	2450 2600 2150 2600
-Connection ~ 2150 2600
 $Comp
 L Device:R_Small R?
 U 1 1 60BA4014
@@ -227,23 +209,8 @@ F 3 "~" H 1750 2100 50  0001 C CNN
 	1    1750 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60BA401A
-P 2550 2100
-AR Path="/60BA401A" Ref="R?"  Part="1" 
-AR Path="/60B6A5B0/60BA401A" Ref="R7"  Part="1" 
-F 0 "R7" H 2609 2146 50  0000 L CNN
-F 1 "10k" H 2609 2055 50  0000 L CNN
-F 2 "" V 2480 2100 50  0001 C CNN
-F 3 "~" H 2550 2100 50  0001 C CNN
-	1    2550 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 2250 1750 2250
-Text GLabel 2700 2250 2    50   Output ~ 0
-KTIR_1
 Text Notes 1650 1600 0    79   ~ 0
 White line sensors
 Wire Wire Line
@@ -261,9 +228,6 @@ F 3 "" H 2150 1950 50  0001 C CNN
 	1    2150 1950
 	1    0    0    -1  
 $EndComp
-Connection ~ 2150 1950
-Wire Wire Line
-	2150 1950 2550 1950
 Wire Wire Line
 	1750 3100 2150 3100
 Connection ~ 2150 4950
@@ -334,16 +298,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 1950 1750 2000
 Wire Wire Line
-	2450 2250 2550 2250
-Wire Wire Line
 	1750 2200 1750 2250
-Wire Wire Line
-	2550 2200 2550 2250
-Connection ~ 2550 2250
-Wire Wire Line
-	2550 2250 2700 2250
-Wire Wire Line
-	2550 2000 2550 1950
 Wire Wire Line
 	1750 3100 1750 3150
 Wire Wire Line
@@ -383,51 +338,8 @@ Wire Wire Line
 	1750 4600 1750 4550
 Wire Wire Line
 	1750 4350 1750 4300
-Text Notes 3900 1600 0    79   ~ 0
-Proximity sensor
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60BAA028
-P 4350 1750
-AR Path="/60BAA028" Ref="J?"  Part="1" 
-AR Path="/60B6A5B0/60BAA028" Ref="J6"  Part="1" 
-F 0 "J6" V 4314 1462 50  0000 R CNN
-F 1 "Proximity sensor" V 4223 1462 50  0000 R CNN
-F 2 "" H 4350 1750 50  0001 C CNN
-F 3 "~" H 4350 1750 50  0001 C CNN
-	1    4350 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60BAA02E
-P 4550 1950
-AR Path="/60BAA02E" Ref="#PWR?"  Part="1" 
-AR Path="/60B6A5B0/60BAA02E" Ref="#PWR0142"  Part="1" 
-F 0 "#PWR0142" H 4550 1700 50  0001 C CNN
-F 1 "GND" H 4555 1777 50  0000 C CNN
-F 2 "" H 4550 1950 50  0001 C CNN
-F 3 "" H 4550 1950 50  0001 C CNN
-	1    4550 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60BAA034
-P 4450 1950
-AR Path="/60BAA034" Ref="#PWR?"  Part="1" 
-AR Path="/60B6A5B0/60BAA034" Ref="#PWR0143"  Part="1" 
-F 0 "#PWR0143" H 4450 1800 50  0001 C CNN
-F 1 "+3.3V" H 4465 2123 50  0000 C CNN
-F 2 "" H 4450 1950 50  0001 C CNN
-F 3 "" H 4450 1950 50  0001 C CNN
-	1    4450 1950
-	-1   0    0    1   
-$EndComp
-Text GLabel 4350 1950 3    50   Output ~ 0
-SENSOR_OUT
-Text GLabel 4250 1950 3    50   Input ~ 0
-SENSOR_ENABLE
+Text Notes 4500 1450 0    79   ~ 0
+Proximity sensors
 $Comp
 L power:+5V #PWR0144
 U 1 1 60AEE18F
@@ -442,4 +354,171 @@ $EndComp
 Connection ~ 2150 3100
 Wire Wire Line
 	2150 3100 2550 3100
+Connection ~ 2150 1950
+Connection ~ 2150 2600
+Wire Wire Line
+	4050 1950 4050 2250
+Wire Wire Line
+	4250 1950 4050 1950
+Wire Wire Line
+	4750 1950 4750 2250
+Wire Wire Line
+	4550 1950 4750 1950
+$Comp
+L power:+5V #PWR?
+U 1 1 60BD6E0F
+P 4550 2250
+F 0 "#PWR?" H 4550 2100 50  0001 C CNN
+F 1 "+5V" H 4565 2423 50  0000 C CNN
+F 2 "" H 4550 2250 50  0001 C CNN
+F 3 "" H 4550 2250 50  0001 C CNN
+	1    4550 2250
+	-1   0    0    1   
+$EndComp
+Text GLabel 4050 2250 3    50   Input ~ 0
+SENSOR1_ENABLE
+Text GLabel 4250 2250 3    50   Output ~ 0
+SENSOR1_OUT
+$Comp
+L power:GND #PWR?
+U 1 1 60BAA02E
+P 4750 2250
+AR Path="/60BAA02E" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60BAA02E" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 4750 2000 50  0001 C CNN
+F 1 "GND" H 4755 2077 50  0000 C CNN
+F 2 "" H 4750 2250 50  0001 C CNN
+F 3 "" H 4750 2250 50  0001 C CNN
+	1    4750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60BAA028
+P 4350 1750
+AR Path="/60BAA028" Ref="J?"  Part="1" 
+AR Path="/60B6A5B0/60BAA028" Ref="J6"  Part="1" 
+F 0 "J6" V 4314 1462 50  0000 R CNN
+F 1 "Proximity sensor" V 4223 1462 50  0000 R CNN
+F 2 "" H 4350 1750 50  0001 C CNN
+F 3 "~" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2000 2550 1950
+Wire Wire Line
+	2550 2250 2700 2250
+Connection ~ 2550 2250
+Wire Wire Line
+	2550 2200 2550 2250
+Wire Wire Line
+	2450 2250 2550 2250
+Wire Wire Line
+	2150 1950 2550 1950
+Text GLabel 2700 2250 2    50   Output ~ 0
+KTIR_1
+$Comp
+L Device:R_Small R?
+U 1 1 60BA401A
+P 2550 2100
+AR Path="/60BA401A" Ref="R?"  Part="1" 
+AR Path="/60B6A5B0/60BA401A" Ref="R7"  Part="1" 
+F 0 "R7" H 2609 2146 50  0000 L CNN
+F 1 "10k" H 2609 2055 50  0000 L CNN
+F 2 "" V 2480 2100 50  0001 C CNN
+F 3 "~" H 2550 2100 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2600 2150 2600
+Wire Wire Line
+	2450 2450 2450 2600
+$Comp
+L roboty_mobilne-rescue:KTIR0711S-warsztaty U?
+U 1 1 60BA4003
+P 2150 2350
+AR Path="/60BA4003" Ref="U?"  Part="1" 
+AR Path="/60B6A5B0/60BA4003" Ref="U5"  Part="1" 
+F 0 "U5" H 2150 2675 50  0000 C CNN
+F 1 "KTIR0711S" H 2150 2584 50  0000 C CNN
+F 2 "" H 1950 2150 50  0000 L CIN
+F 3 "" H 2150 2350 50  0000 L CNN
+	1    2150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2250 4250 2150
+Wire Wire Line
+	4250 2150 4350 2150
+Wire Wire Line
+	4350 2150 4350 1950
+Wire Wire Line
+	4550 2250 4550 2150
+Wire Wire Line
+	4550 2150 4450 2150
+Wire Wire Line
+	4450 2150 4450 1950
+Wire Wire Line
+	5750 1950 5750 2250
+Wire Wire Line
+	5950 1950 5750 1950
+Wire Wire Line
+	6450 1950 6450 2250
+Wire Wire Line
+	6250 1950 6450 1950
+$Comp
+L power:+5V #PWR?
+U 1 1 60C05462
+P 6250 2250
+F 0 "#PWR?" H 6250 2100 50  0001 C CNN
+F 1 "+5V" H 6265 2423 50  0000 C CNN
+F 2 "" H 6250 2250 50  0001 C CNN
+F 3 "" H 6250 2250 50  0001 C CNN
+	1    6250 2250
+	-1   0    0    1   
+$EndComp
+Text GLabel 5750 2250 3    50   Input ~ 0
+SENSOR2_ENABLE
+Text GLabel 5950 2250 3    50   Output ~ 0
+SENSOR2_OUT
+$Comp
+L power:GND #PWR?
+U 1 1 60C0546A
+P 6450 2250
+AR Path="/60C0546A" Ref="#PWR?"  Part="1" 
+AR Path="/60B6A5B0/60C0546A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6450 2000 50  0001 C CNN
+F 1 "GND" H 6455 2077 50  0000 C CNN
+F 2 "" H 6450 2250 50  0001 C CNN
+F 3 "" H 6450 2250 50  0001 C CNN
+	1    6450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60C05470
+P 6050 1750
+AR Path="/60C05470" Ref="J?"  Part="1" 
+AR Path="/60B6A5B0/60C05470" Ref="J?"  Part="1" 
+F 0 "J?" V 6014 1462 50  0000 R CNN
+F 1 "Proximity sensor" V 5923 1462 50  0000 R CNN
+F 2 "" H 6050 1750 50  0001 C CNN
+F 3 "~" H 6050 1750 50  0001 C CNN
+	1    6050 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2250 5950 2150
+Wire Wire Line
+	5950 2150 6050 2150
+Wire Wire Line
+	6050 2150 6050 1950
+Wire Wire Line
+	6250 2250 6250 2150
+Wire Wire Line
+	6250 2150 6150 2150
+Wire Wire Line
+	6150 2150 6150 1950
 $EndSCHEMATC
