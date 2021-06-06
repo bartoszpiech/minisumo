@@ -85,8 +85,6 @@ F 3 "~" H 6850 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 2750 6700 2750
-Wire Wire Line
 	7150 3350 7150 2750
 Wire Wire Line
 	7150 2750 7450 2750
@@ -123,28 +121,12 @@ L_IN1
 Text GLabel 7150 4150 0    50   Input ~ 0
 L_IN2
 $Comp
-L power:+3.3V #PWR?
-U 1 1 60B1D408
-P 6700 2750
-AR Path="/60B1D408" Ref="#PWR?"  Part="1" 
-AR Path="/60AEE60B/60B1D408" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 6700 2600 50  0001 C CNN
-F 1 "+3.3V" H 6715 2923 50  0000 C CNN
-F 2 "" H 6700 2750 50  0001 C CNN
-F 3 "" H 6700 2750 50  0001 C CNN
-	1    6700 2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 6700 2750
-Wire Wire Line
-	6700 2750 6850 2750
-$Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 60B24363
 P 9950 5800
 F 0 "J1" H 10030 5792 50  0000 L CNN
 F 1 "Left motor" H 10030 5701 50  0000 L CNN
-F 2 "" H 9950 5800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9950 5800 50  0001 C CNN
 F 3 "~" H 9950 5800 50  0001 C CNN
 	1    9950 5800
 	0    -1   -1   0   
@@ -188,7 +170,7 @@ AR Path="/60B1D410" Ref="J?"  Part="1"
 AR Path="/60AEE60B/60B1D410" Ref="J4"  Part="1" 
 F 0 "J4" H 10430 5792 50  0000 L CNN
 F 1 "Right motor" H 10430 5701 50  0000 L CNN
-F 2 "" H 10350 5800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10350 5800 50  0001 C CNN
 F 3 "~" H 10350 5800 50  0001 C CNN
 	1    10350 5800
 	0    -1   -1   0   
@@ -271,8 +253,6 @@ F 3 "~" H 2400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 2750 2250 2750
-Wire Wire Line
 	2700 3350 2700 2750
 Wire Wire Line
 	2700 2750 3000 2750
@@ -308,22 +288,6 @@ Text GLabel 2700 4050 0    50   Input ~ 0
 R_IN1
 Text GLabel 2700 4150 0    50   Input ~ 0
 R_IN2
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60B481A2
-P 2250 2750
-AR Path="/60B481A2" Ref="#PWR?"  Part="1" 
-AR Path="/60AEE60B/60B481A2" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 2250 2600 50  0001 C CNN
-F 1 "+3.3V" H 2265 2923 50  0000 C CNN
-F 2 "" H 2250 2750 50  0001 C CNN
-F 3 "" H 2250 2750 50  0001 C CNN
-	1    2250 2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 2250 2750
-Wire Wire Line
-	2250 2750 2400 2750
 Wire Wire Line
 	3400 4750 3600 4750
 Wire Wire Line
@@ -365,17 +329,6 @@ F 3 "~" H 2100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C4
-U 1 1 60AF4E38
-P 4750 2850
-F 0 "C4" H 4838 2896 50  0000 L CNN
-F 1 "22u" H 4838 2805 50  0000 L CNN
-F 2 "" H 4750 2850 50  0001 C CNN
-F 3 "~" H 4750 2850 50  0001 C CNN
-	1    4750 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP_Small C5
 U 1 1 60AF6A3D
 P 6550 2850
@@ -384,17 +337,6 @@ F 1 "10u" H 6638 2805 50  0000 L CNN
 F 2 "" H 6550 2850 50  0001 C CNN
 F 3 "~" H 6550 2850 50  0001 C CNN
 	1    6550 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C8
-U 1 1 60AF7F2B
-P 9250 2850
-F 0 "C8" H 9338 2896 50  0000 L CNN
-F 1 "22u" H 9338 2805 50  0000 L CNN
-F 2 "" H 9250 2850 50  0001 C CNN
-F 3 "~" H 9250 2850 50  0001 C CNN
-	1    9250 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -616,10 +558,10 @@ F 3 "~" H 5000 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C4
 U 1 1 60C28A06
 P 4350 2850
-F 0 "C?" H 4438 2896 50  0000 L CNN
+F 0 "C4" H 4438 2896 50  0000 L CNN
 F 1 "500u" H 4438 2805 50  0000 L CNN
 F 2 "" H 4350 2850 50  0001 C CNN
 F 3 "~" H 4350 2850 50  0001 C CNN
@@ -629,10 +571,10 @@ $EndComp
 Connection ~ 4350 2750
 Connection ~ 4350 2950
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C8
 U 1 1 60C2A88E
 P 8800 2850
-F 0 "C?" H 8888 2896 50  0000 L CNN
+F 0 "C8" H 8888 2896 50  0000 L CNN
 F 1 "500u" H 8888 2805 50  0000 L CNN
 F 2 "" H 8800 2850 50  0001 C CNN
 F 3 "~" H 8800 2850 50  0001 C CNN
@@ -641,4 +583,36 @@ F 3 "~" H 8800 2850 50  0001 C CNN
 $EndComp
 Connection ~ 8800 2750
 Connection ~ 8800 2950
+Wire Wire Line
+	2100 2750 2250 2750
+$Comp
+L power:+5V #PWR0129
+U 1 1 60BDF66A
+P 2250 2750
+F 0 "#PWR0129" H 2250 2600 50  0001 C CNN
+F 1 "+5V" H 2265 2923 50  0000 C CNN
+F 2 "" H 2250 2750 50  0001 C CNN
+F 3 "" H 2250 2750 50  0001 C CNN
+	1    2250 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 2750
+Wire Wire Line
+	2250 2750 2400 2750
+Wire Wire Line
+	6550 2750 6700 2750
+$Comp
+L power:+5V #PWR0131
+U 1 1 60BE08B7
+P 6700 2750
+F 0 "#PWR0131" H 6700 2600 50  0001 C CNN
+F 1 "+5V" H 6715 2923 50  0000 C CNN
+F 2 "" H 6700 2750 50  0001 C CNN
+F 3 "" H 6700 2750 50  0001 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 2750
+Wire Wire Line
+	6700 2750 6850 2750
 $EndSCHEMATC
