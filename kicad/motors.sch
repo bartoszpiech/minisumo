@@ -32,13 +32,13 @@ Wire Wire Line
 	8050 4750 8050 4800
 Text GLabel 8350 3350 2    0    Output ~ 0
 M1_R
-Text GLabel 8350 3550 2    50   Output ~ 0
+Text GLabel 8400 3550 2    50   Output ~ 0
 ML_OUT2
-Text GLabel 8350 3850 2    50   Output ~ 0
+Text GLabel 8400 3850 2    50   Output ~ 0
 ML_OUT1
-Text GLabel 8350 4050 2    50   Output ~ 0
+Text GLabel 8400 4050 2    50   Output ~ 0
 ML_OUT2
-Text GLabel 8350 3350 2    50   Output ~ 0
+Text GLabel 8400 3350 2    50   Output ~ 0
 ML_OUT1
 $Comp
 L Device:C_Small C?
@@ -48,7 +48,7 @@ AR Path="/60B1D3CE" Ref="C?"  Part="1"
 AR Path="/60AEE60B/60B1D3CE" Ref="C7"  Part="1" 
 F 0 "C7" H 8492 2896 50  0000 L CNN
 F 1 "0.1u" H 8492 2805 50  0000 L CNN
-F 2 "" H 8400 2850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 8400 2850 50  0001 C CNN
 F 3 "~" H 8400 2850 50  0001 C CNN
 	1    8400 2850
 	1    0    0    -1  
@@ -79,7 +79,7 @@ AR Path="/60B1D3E7" Ref="C?"  Part="1"
 AR Path="/60AEE60B/60B1D3E7" Ref="C6"  Part="1" 
 F 0 "C6" H 6942 2896 50  0000 L CNN
 F 1 "0.1u" H 6942 2805 50  0000 L CNN
-F 2 "" H 6850 2850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 6850 2850 50  0001 C CNN
 F 3 "~" H 6850 2850 50  0001 C CNN
 	1    6850 2850
 	1    0    0    -1  
@@ -110,15 +110,15 @@ $EndComp
 Connection ~ 6700 2950
 Wire Wire Line
 	6700 2950 6850 2950
-Text GLabel 7150 3550 0    50   Input ~ 0
+Text GLabel 7100 3550 0    50   Input ~ 0
 PWM_L
-Text GLabel 7150 3850 0    50   Input ~ 0
+Text GLabel 7100 3850 0    50   Input ~ 0
 L_IN1
-Text GLabel 7150 3950 0    50   Input ~ 0
+Text GLabel 7100 3950 0    50   Input ~ 0
 L_IN2
-Text GLabel 7150 4050 0    50   Input ~ 0
+Text GLabel 7100 4050 0    50   Input ~ 0
 L_IN1
-Text GLabel 7150 4150 0    50   Input ~ 0
+Text GLabel 7100 4150 0    50   Input ~ 0
 L_IN2
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -200,13 +200,13 @@ Wire Wire Line
 	3600 4750 3600 4800
 Text GLabel 3900 3350 2    0    Output ~ 0
 M1_R
-Text GLabel 3900 3550 2    50   Output ~ 0
+Text GLabel 3950 3550 2    50   Output ~ 0
 MR_OUT2
-Text GLabel 3900 3850 2    50   Output ~ 0
+Text GLabel 3950 3850 2    50   Output ~ 0
 MR_OUT1
-Text GLabel 3900 4050 2    50   Output ~ 0
+Text GLabel 3950 4050 2    50   Output ~ 0
 MR_OUT2
-Text GLabel 3900 3350 2    50   Output ~ 0
+Text GLabel 3950 3350 2    50   Output ~ 0
 MR_OUT1
 $Comp
 L Device:C_Small C?
@@ -216,7 +216,7 @@ AR Path="/60B4816B" Ref="C?"  Part="1"
 AR Path="/60AEE60B/60B4816B" Ref="C3"  Part="1" 
 F 0 "C3" H 4042 2896 50  0000 L CNN
 F 1 "0.1u" H 4042 2805 50  0000 L CNN
-F 2 "" H 3950 2850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 3950 2850 50  0001 C CNN
 F 3 "~" H 3950 2850 50  0001 C CNN
 	1    3950 2850
 	1    0    0    -1  
@@ -247,7 +247,7 @@ AR Path="/60B48182" Ref="C?"  Part="1"
 AR Path="/60AEE60B/60B48182" Ref="C2"  Part="1" 
 F 0 "C2" H 2492 2896 50  0000 L CNN
 F 1 "0.1u" H 2492 2805 50  0000 L CNN
-F 2 "" H 2400 2850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 2400 2850 50  0001 C CNN
 F 3 "~" H 2400 2850 50  0001 C CNN
 	1    2400 2850
 	1    0    0    -1  
@@ -278,15 +278,15 @@ $EndComp
 Connection ~ 2250 2950
 Wire Wire Line
 	2250 2950 2400 2950
-Text GLabel 2700 3550 0    50   Input ~ 0
+Text GLabel 2650 3550 0    50   Input ~ 0
 PWM_R
-Text GLabel 2700 3850 0    50   Input ~ 0
+Text GLabel 2650 3850 0    50   Input ~ 0
 R_IN1
-Text GLabel 2700 3950 0    50   Input ~ 0
+Text GLabel 2650 3950 0    50   Input ~ 0
 R_IN2
-Text GLabel 2700 4050 0    50   Input ~ 0
+Text GLabel 2650 4050 0    50   Input ~ 0
 R_IN1
-Text GLabel 2700 4150 0    50   Input ~ 0
+Text GLabel 2650 4150 0    50   Input ~ 0
 R_IN2
 Wire Wire Line
 	3400 4750 3600 4750
@@ -323,7 +323,7 @@ U 1 1 60AF3C15
 P 2100 2850
 F 0 "C1" H 2188 2896 50  0000 L CNN
 F 1 "10u" H 2188 2805 50  0000 L CNN
-F 2 "" H 2100 2850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2100 2850 50  0001 C CNN
 F 3 "~" H 2100 2850 50  0001 C CNN
 	1    2100 2850
 	1    0    0    -1  
@@ -334,7 +334,7 @@ U 1 1 60AF6A3D
 P 6550 2850
 F 0 "C5" H 6638 2896 50  0000 L CNN
 F 1 "10u" H 6638 2805 50  0000 L CNN
-F 2 "" H 6550 2850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6550 2850 50  0001 C CNN
 F 3 "~" H 6550 2850 50  0001 C CNN
 	1    6550 2850
 	1    0    0    -1  
@@ -345,7 +345,7 @@ U 1 1 60B33AF8
 P 9400 3850
 F 0 "D10" V 9354 3930 50  0000 L CNN
 F 1 "D" V 9445 3930 50  0000 L CNN
-F 2 "" H 9400 3850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9400 3850 50  0001 C CNN
 F 3 "~" H 9400 3850 50  0001 C CNN
 	1    9400 3850
 	0    1    1    0   
@@ -356,7 +356,7 @@ U 1 1 60B34D00
 P 9400 4250
 F 0 "D11" V 9354 4330 50  0000 L CNN
 F 1 "D" V 9445 4330 50  0000 L CNN
-F 2 "" H 9400 4250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9400 4250 50  0001 C CNN
 F 3 "~" H 9400 4250 50  0001 C CNN
 	1    9400 4250
 	0    1    1    0   
@@ -380,7 +380,7 @@ U 1 1 60B3D59B
 P 9700 3850
 F 0 "D12" V 9654 3930 50  0000 L CNN
 F 1 "D" V 9745 3930 50  0000 L CNN
-F 2 "" H 9700 3850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9700 3850 50  0001 C CNN
 F 3 "~" H 9700 3850 50  0001 C CNN
 	1    9700 3850
 	0    1    1    0   
@@ -391,7 +391,7 @@ U 1 1 60B3D5A1
 P 9700 4250
 F 0 "D13" V 9654 4330 50  0000 L CNN
 F 1 "D" V 9745 4330 50  0000 L CNN
-F 2 "" H 9700 4250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9700 4250 50  0001 C CNN
 F 3 "~" H 9700 4250 50  0001 C CNN
 	1    9700 4250
 	0    1    1    0   
@@ -419,29 +419,29 @@ U 1 1 60B478A5
 P 5000 3850
 F 0 "D1" V 4954 3930 50  0000 L CNN
 F 1 "D" V 5045 3930 50  0000 L CNN
-F 2 "" H 5000 3850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5000 3850 50  0001 C CNN
 F 3 "~" H 5000 3850 50  0001 C CNN
 	1    5000 3850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5000 4000 5000 4100
+	5000 4000 5000 4050
 $Comp
 L Device:D D8
 U 1 1 60B478B9
 P 5300 3850
 F 0 "D8" V 5254 3930 50  0000 L CNN
 F 1 "D" V 5345 3930 50  0000 L CNN
-F 2 "" H 5300 3850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5300 3850 50  0001 C CNN
 F 3 "~" H 5300 3850 50  0001 C CNN
 	1    5300 3850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5300 4000 5300 4100
-Text GLabel 5000 4050 0    50   Input ~ 0
+	5300 4000 5300 4050
+Text GLabel 4950 4050 0    50   Input ~ 0
 MR_OUT1
-Text GLabel 5300 4050 2    50   Input ~ 0
+Text GLabel 5350 4050 2    50   Input ~ 0
 MR_OUT2
 Text Notes 9300 3400 0    50   ~ 0
 EMF Protection
@@ -530,7 +530,7 @@ U 1 1 60B478BF
 P 5300 4250
 F 0 "D9" V 5254 4330 50  0000 L CNN
 F 1 "D" V 5345 4330 50  0000 L CNN
-F 2 "" H 5300 4250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5300 4250 50  0001 C CNN
 F 3 "~" H 5300 4250 50  0001 C CNN
 	1    5300 4250
 	0    1    1    0   
@@ -552,7 +552,7 @@ U 1 1 60B478AB
 P 5000 4250
 F 0 "D2" V 4954 4330 50  0000 L CNN
 F 1 "D" V 5045 4330 50  0000 L CNN
-F 2 "" H 5000 4250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5000 4250 50  0001 C CNN
 F 3 "~" H 5000 4250 50  0001 C CNN
 	1    5000 4250
 	0    1    1    0   
@@ -562,8 +562,8 @@ L Device:CP_Small C4
 U 1 1 60C28A06
 P 4350 2850
 F 0 "C4" H 4438 2896 50  0000 L CNN
-F 1 "500u" H 4438 2805 50  0000 L CNN
-F 2 "" H 4350 2850 50  0001 C CNN
+F 1 "470u" H 4438 2805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4350 2850 50  0001 C CNN
 F 3 "~" H 4350 2850 50  0001 C CNN
 	1    4350 2850
 	1    0    0    -1  
@@ -575,8 +575,8 @@ L Device:CP_Small C8
 U 1 1 60C2A88E
 P 8800 2850
 F 0 "C8" H 8888 2896 50  0000 L CNN
-F 1 "500u" H 8888 2805 50  0000 L CNN
-F 2 "" H 8800 2850 50  0001 C CNN
+F 1 "470u" H 8888 2805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 8800 2850 50  0001 C CNN
 F 3 "~" H 8800 2850 50  0001 C CNN
 	1    8800 2850
 	1    0    0    -1  
@@ -615,4 +615,52 @@ $EndComp
 Connection ~ 6700 2750
 Wire Wire Line
 	6700 2750 6850 2750
+Wire Wire Line
+	3900 3350 3950 3350
+Wire Wire Line
+	3900 3550 3950 3550
+Wire Wire Line
+	3900 3850 3950 3850
+Wire Wire Line
+	3900 4050 3950 4050
+Wire Wire Line
+	2700 4150 2650 4150
+Wire Wire Line
+	2700 4050 2650 4050
+Wire Wire Line
+	2700 3950 2650 3950
+Wire Wire Line
+	2700 3850 2650 3850
+Wire Wire Line
+	2650 3550 2700 3550
+Connection ~ 2700 3550
+Wire Wire Line
+	7100 3550 7150 3550
+Connection ~ 7150 3550
+Wire Wire Line
+	7100 3850 7150 3850
+Wire Wire Line
+	7100 3950 7150 3950
+Wire Wire Line
+	7100 4050 7150 4050
+Wire Wire Line
+	7100 4150 7150 4150
+Wire Wire Line
+	8350 3350 8400 3350
+Wire Wire Line
+	8350 3550 8400 3550
+Wire Wire Line
+	8350 3850 8400 3850
+Wire Wire Line
+	8350 4050 8400 4050
+Wire Wire Line
+	4950 4050 5000 4050
+Connection ~ 5000 4050
+Wire Wire Line
+	5000 4050 5000 4100
+Wire Wire Line
+	5350 4050 5300 4050
+Connection ~ 5300 4050
+Wire Wire Line
+	5300 4050 5300 4100
 $EndSCHEMATC

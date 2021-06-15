@@ -23,7 +23,7 @@ AR Path="/60B46B6E" Ref="C?"  Part="1"
 AR Path="/60AFA27C/60B46B6E" Ref="C9"  Part="1" 
 F 0 "C9" H 5342 4246 50  0000 L CNN
 F 1 "0.1u" H 5342 4155 50  0000 L CNN
-F 2 "" H 5250 4200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 5250 4200 50  0001 C CNN
 F 3 "~" H 5250 4200 50  0001 C CNN
 	1    5250 4200
 	1    0    0    -1  
@@ -36,7 +36,7 @@ AR Path="/60B46B74" Ref="C?"  Part="1"
 AR Path="/60AFA27C/60B46B74" Ref="C11"  Part="1" 
 F 0 "C11" H 5738 4246 50  0000 L CNN
 F 1 "10u" H 5738 4155 50  0000 L CNN
-F 2 "" H 5650 4200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5650 4200 50  0001 C CNN
 F 3 "~" H 5650 4200 50  0001 C CNN
 	1    5650 4200
 	1    0    0    -1  
@@ -49,7 +49,7 @@ AR Path="/60B46B7A" Ref="C?"  Part="1"
 AR Path="/60AFA27C/60B46B7A" Ref="C13"  Part="1" 
 F 0 "C13" H 6588 4246 50  0000 L CNN
 F 1 "10u" H 6588 4155 50  0000 L CNN
-F 2 "" H 6500 4200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6500 4200 50  0001 C CNN
 F 3 "~" H 6500 4200 50  0001 C CNN
 	1    6500 4200
 	1    0    0    -1  
@@ -62,7 +62,7 @@ AR Path="/60B46B80" Ref="C?"  Part="1"
 AR Path="/60AFA27C/60B46B80" Ref="C14"  Part="1" 
 F 0 "C14" H 6892 4246 50  0000 L CNN
 F 1 "0.1u" H 6892 4155 50  0000 L CNN
-F 2 "" H 6800 4200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 6800 4200 50  0001 C CNN
 F 3 "~" H 6800 4200 50  0001 C CNN
 	1    6800 4200
 	1    0    0    -1  
@@ -100,7 +100,7 @@ AR Path="/60B46B94" Ref="U?"  Part="1"
 AR Path="/60AFA27C/60B46B94" Ref="U3"  Part="1" 
 F 0 "U3" H 6100 4342 50  0000 C CNN
 F 1 "LM1117-5.0" H 6100 4251 50  0000 C CNN
-F 2 "" H 6100 4100 50  0001 C CNN
+F 2 "warsztaty:LM1117_TO-252" H 6100 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 6100 4100 50  0001 C CNN
 	1    6100 4100
 	1    0    0    -1  
@@ -131,7 +131,7 @@ AR Path="/60B5B7B1" Ref="J?"  Part="1"
 AR Path="/60AFA27C/60B5B7B1" Ref="J5"  Part="1" 
 F 0 "J5" H 3118 3175 50  0000 C CNN
 F 1 "Li-Po balancer" H 3118 3266 50  0000 C CNN
-F 2 "" H 3200 3600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3200 3600 50  0001 C CNN
 F 3 "~" H 3200 3600 50  0001 C CNN
 	1    3200 3600
 	0    -1   -1   0   
@@ -162,7 +162,7 @@ AR Path="/60B5B7CC" Ref="SW?"  Part="1"
 AR Path="/60AFA27C/60B5B7CC" Ref="SW2"  Part="1" 
 F 0 "SW2" H 3400 4335 50  0000 C CNN
 F 1 "SW_SPDT" H 3400 4244 50  0000 C CNN
-F 2 "" H 3400 4050 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 3400 4050 50  0001 C CNN
 F 3 "~" H 3400 4050 50  0001 C CNN
 	1    3400 4050
 	0    1    1    0   
@@ -176,7 +176,7 @@ AR Path="/60B5B7DA" Ref="R?"  Part="1"
 AR Path="/60AFA27C/60B5B7DA" Ref="R1"  Part="1" 
 F 0 "R1" H 4270 4346 50  0000 L CNN
 F 1 "1k" H 4270 4255 50  0000 L CNN
-F 2 "" V 4130 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4130 4300 50  0001 C CNN
 F 3 "~" H 4200 4300 50  0001 C CNN
 	1    4200 4300
 	-1   0    0    1   
@@ -189,7 +189,7 @@ AR Path="/60B5B7E6" Ref="D?"  Part="1"
 AR Path="/60AFA27C/60B5B7E6" Ref="D14"  Part="1" 
 F 0 "D14" V 4239 3882 50  0000 R CNN
 F 1 "LED" V 4148 3882 50  0000 R CNN
-F 2 "" H 4200 4000 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4200 4000 50  0001 C CNN
 F 3 "~" H 4200 4000 50  0001 C CNN
 	1    4200 4000
 	0    1    1    0   
@@ -287,8 +287,8 @@ L Device:R_Small R2
 U 1 1 60C18049
 P 1800 6000
 F 0 "R2" V 1604 6000 50  0000 C CNN
-F 1 "220k" V 1695 6000 50  0000 C CNN
-F 2 "" H 1800 6000 50  0001 C CNN
+F 1 "200k" V 1695 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1800 6000 50  0001 C CNN
 F 3 "~" H 1800 6000 50  0001 C CNN
 	1    1800 6000
 	0    1    1    0   
@@ -298,8 +298,8 @@ L Device:R_Small R18
 U 1 1 60C18CC7
 P 2400 6000
 F 0 "R18" V 2596 6000 50  0000 C CNN
-F 1 "82k" V 2505 6000 50  0000 C CNN
-F 2 "" H 2400 6000 50  0001 C CNN
+F 1 "75k" V 2505 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 2400 6000 50  0001 C CNN
 F 3 "~" H 2400 6000 50  0001 C CNN
 	1    2400 6000
 	0    -1   -1   0   
@@ -316,7 +316,7 @@ U 1 1 60C1A620
 P 2400 6350
 F 0 "C15" V 2171 6350 50  0000 C CNN
 F 1 "0.1u" V 2262 6350 50  0000 C CNN
-F 2 "" H 2400 6350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 2400 6350 50  0001 C CNN
 F 3 "~" H 2400 6350 50  0001 C CNN
 	1    2400 6350
 	0    1    1    0   
@@ -329,7 +329,7 @@ Connection ~ 2600 6000
 Wire Wire Line
 	2600 6000 2650 6000
 Text Notes 3050 6100 0    39   ~ 0
-Vmax = 12,6 V\nR1 = 220 kOhm\nR2 = 82 kOhm\nVout = 3,421 V -> mniej niż zakres ADC (3,6V)\nI = 12,6 / 302k = 41uA -> malutko czyli bateria nie będzie się mocno rozładowywać
+Vmax = 12,6 V\nR1 = 200 kOhm\nR2 = 75 kOhm\nVout = 3,436 V -> mniej niż zakres ADC (3,6V)\nI = 12,6 / 275k = 45uA -> malutko czyli bateria nie będzie się mocno rozładowywać
 Text GLabel 2000 6250 0    50   Output ~ 0
 BAT_PROBE
 Wire Wire Line

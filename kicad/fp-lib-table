@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name warsztaty)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/warsztaty.pretty)(options "")(descr ""))
+  (lib (name Tact_Switch3x6mm)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/Tact_Switch3x6mm.pretty)(options "")(descr ""))
+  (lib (name misc)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/misc.pretty)(options "")(descr ""))
+  (lib (name bluepill)(type KiCad)(uri ${KIPRJMOD}/libs/bluepill)(options "")(descr ""))
+)

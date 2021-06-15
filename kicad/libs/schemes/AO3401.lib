@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AO3401
+#
+DEF AO3401 U 0 40 N N 1 L N
+F0 "U" -450 100 50 H V L BNN
+F1 "AO3401" -450 0 50 H V L BNN
+F2 "SOT23-3" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "" 0 0 50 H I L BNN "PROD_ID"
+F5 "AO3404" 0 0 50 H I L BNN "VALUE"
+DRAW
+P 2 0 0 6 -100 -100 -48 -100 N
+P 2 0 0 10 0 30 0 0 N
+P 2 0 0 10 0 0 0 -30 N
+P 2 0 0 10 0 145 0 100 N
+P 2 0 0 10 0 100 0 55 N
+P 2 0 0 10 45 25 95 0 N
+P 2 0 0 10 45 -25 95 0 N
+P 2 0 0 6 0 0 95 0 N
+P 2 0 0 6 95 0 100 0 N
+P 2 0 0 6 100 0 100 -100 N
+P 2 0 0 10 0 -55 0 -100 N
+P 2 0 0 10 0 -100 0 -145 N
+P 2 0 0 10 -45 100 -45 -100 N
+P 2 0 0 8 100 -100 0 -100 N
+P 2 0 0 8 0 100 100 100 N
+P 2 0 0 8 100 100 200 100 N
+P 2 0 0 8 100 -100 200 -100 N
+P 2 0 0 8 200 -100 200 -30 N
+P 2 0 0 8 200 -30 200 100 N
+P 2 0 0 8 220 -30 200 -30 N
+P 2 0 0 8 200 -30 180 -30 N
+P 2 0 0 8 200 -30 230 20 N
+P 2 0 0 8 230 20 170 20 N
+P 2 0 0 8 170 20 200 -30 N
+P 2 0 0 8 220 -30 230 -30 N
+P 2 0 0 8 180 -30 170 -30 N
+X ~ 3 100 300 200 D 40 40 0 0 P 
+X ~ 2 100 -300 200 U 40 40 0 0 P 
+X ~ 1 -200 -100 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
